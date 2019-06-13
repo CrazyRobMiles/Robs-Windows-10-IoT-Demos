@@ -2,7 +2,7 @@
 
 These are two Windows IoT demos that I created for the Insider Dev Tour 2019
 
-## Emotion Recognition
+## Emotion Camera
 This is a modified version of the Cognitive Services example that accepts input from a webcam rather than loading an image from the web. It works on a Raspberry Pi or on your desktop. Which I think is rather impressive. Don't forget to add the address and key for your Cognitive service to the code. 
 
 ## Logo Blaster
