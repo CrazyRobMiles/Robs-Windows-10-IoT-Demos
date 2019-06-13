@@ -1,0 +1,26 @@
+﻿<Page
+	x:Class="CognitiveServicesExample.MainPage"
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:local="using:CognitiveServicesExample"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	mc:Ignorable="d">
+
+    <StackPanel Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center">
+        <StackPanel VerticalAlignment="Top">
+            <Canvas x:Name="ImageCanvas" Width="640" Height="480"/>
+            <TextBlock x:Name="detectionStatus" Width="500" HorizontalAlignment="Center" Margin="10"/>
+        </StackPanel>
+
+        <StackPanel VerticalAlignment="Top">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Width="640" Margin="10">
+                <Button Content="Detect Emotions" Width="140" Margin="10" HorizontalAlignment="Center" Click="Camera_Button_Clicked"/>
+                <CaptureElement Name="PreviewControl" Width="320" Height="240" Stretch="Uniform"/>
+            </StackPanel>
+            <ScrollViewer Height="300" >
+                <ListBox x:Name="ResultBox" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+            </ScrollViewer>
+        </StackPanel>
+    </StackPanel>
+</Page>
