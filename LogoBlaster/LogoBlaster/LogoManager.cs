@@ -22,7 +22,7 @@ namespace LogoBlaster
 
         string[] imageNames = new string[] {
                 "AngledSquares", "BlueWindows10", "LightWindow",
-                "OneProduct", "Squares", "Windows10","RobMiles","Cheese","LogoBlasterLogo" };
+                "OneProduct", "Squares", "Windows10","RobMiles","Cheese","LogoBlasterLogo","catwhite" };
 
         Dictionary<string, Image> Logos = new Dictionary<string, Image>();
 

@@ -134,6 +134,7 @@
   <ItemGroup>
     <Content Include="Images\AngledSquares.PNG" />
     <Content Include="Images\BlueWindows10.PNG" />
+    <Content Include="Images\catwhite.png" />
     <Content Include="Images\Cheese.png" />
     <Content Include="Images\LightWindow.PNG" />
     <Content Include="Images\LogoBlasterLogo.png" />
