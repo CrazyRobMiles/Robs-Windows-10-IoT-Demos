@@ -25,7 +25,7 @@ namespace CognitiveServicesExample
 {
     public sealed partial class MainPage : Page
     {
-        private const string _subscriptionKey = "6b185950d444402089edf22de0b56da5";
+        private const string _subscriptionKey = "1fa1b6f0381a4ae880e9d998c9ed6bb3";
         private const string _serviceEndpoint = "https://northeurope.api.cognitive.microsoft.com/";
 
         private FaceClient faceServiceClient;
@@ -173,6 +173,7 @@ namespace CognitiveServicesExample
 
             ImageCanvas.Background = imageBrush;
 
+            detectionStatus.Text = "";
 
             using (var ms = new InMemoryRandomAccessStream())
             {
