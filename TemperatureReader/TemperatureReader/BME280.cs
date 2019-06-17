@@ -35,7 +35,7 @@
     public class BME280Sensor
     {
         //The BME280 register addresses according the the datasheet: http://www.adafruit.com/datasheets/BST-BME280-DS001-11.pdf
-        const byte BME280_Address = 0x77;
+        const byte BME280_Address = 0x76;
         const byte BME280_Signature = 0x60;
 
         enum eRegisters : byte

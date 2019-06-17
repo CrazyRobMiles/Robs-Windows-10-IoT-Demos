@@ -8,7 +8,9 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid>
-
-    </Grid>
+    <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+        <TextBlock Name="TempTextBlock" Text="Temp: 20.0" FontSize="72" ></TextBlock>
+        <TextBlock Name="HumidityTextBlock" Text="Humidity: 60%" FontSize="72" ></TextBlock>
+        <TextBlock Name="PressureTextBlock" Text="Pressure: 1001.0" FontSize="72" ></TextBlock>
+    </StackPanel>
 </Page>
