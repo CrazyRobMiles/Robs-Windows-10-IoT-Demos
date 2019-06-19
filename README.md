@@ -13,6 +13,10 @@ This is a deeply silly device I made a while back that allows you to use a porta
 
 ![blaster in action](https://static1.squarespace.com/static/5019271be4b0807297e8f404/t/55b8d551e4b09065f4187b68/1438176596334/?format=750w)
 
+## Temperature Reader
+
+Uses a BME 280 sensor to read the temperature and display it. Based on [this library](https://github.com/BuildAzure/BuildAzure.IoT.Adafruit.BME280) but I've modified the I2C address to 0x76 because I'm not using the Adafruit sensor. 
+
 Have fun.
 
 Rob Miles
