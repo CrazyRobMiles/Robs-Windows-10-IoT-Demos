@@ -41,9 +41,9 @@ namespace TemperatureReader
             float humidity = await bme280.ReadHumidity();
             float pressure = await bme280.ReadPreasure()/1000;
 
-            TempTextBlock.Text = "Temp: " + temp.ToString();
-            HumidityTextBlock.Text = "Humidity: " + humidity.ToString();
-            PressureTextBlock.Text = "Pressure: " + pressure.ToString();
+            TempTextBlock.Text = $"Temp: {temp:.#}";
+            HumidityTextBlock.Text = $"Humidity: {humidity:.#}";
+            PressureTextBlock.Text = $"Pressure: {pressure:.#}";
          }
     }
 }
